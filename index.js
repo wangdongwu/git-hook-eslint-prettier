@@ -1,5 +1,6 @@
-let test = ["foo", "bar", "bizz", "buzz"];
+let test = ["foo"
+    , "bar", "bizz", "buzz"];
 
 console.log("this", "is", "a", "test", test);
 
-console.log(aaa);
+console.log(aaa)
