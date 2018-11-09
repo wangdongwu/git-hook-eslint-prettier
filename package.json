@@ -11,7 +11,7 @@
   "license": "ISC",
   "husky": {
     "hooks": {
-      "pre-commit": "eslint --init",
+      "pre-commit": "eslint .",
       "pre-push": "eslint ."
     }
   },
