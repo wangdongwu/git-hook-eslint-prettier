@@ -1,3 +1,3 @@
-function test(params) {
-console.log('asd')
-}
+let test = ["foo", "bar", "bizz", "buzz"];
+
+console.log("this", "is", "a", "test", test);
