@@ -1,9 +1,9 @@
-function main() {
-  return "function main  ";
+function main () {
+  return 'function main  '
 }
-main();
-function Modal() {
-  return <div>asdasd</div>;
+main()
+function Modal () {
+  return <div>asdasd</div>
 }
 
-export default Modal;
+export default Modal
