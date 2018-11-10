@@ -1,0 +1,26 @@
+{
+    "extends":[
+        "eslint:recommended",
+        "prettier",
+        "prettier/react",
+        "prettier/standard",
+        "prettier/unicorn"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "ecmaVersion": 2018
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "globals":{
+        
+    },
+    "rules": {
+    }
+}
