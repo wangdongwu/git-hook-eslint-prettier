@@ -2,10 +2,13 @@ root = true
 [*.{js,css,less,styl}]
 charset = utf-8
 
-[*.js]
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
 indent_style = space
-indent_size = 2
+indent_size = 4
 
-[{package.json,.travis.yml}]
+[*.js]
 indent_style = space
 indent_size = 2
