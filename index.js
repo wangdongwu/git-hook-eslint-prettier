@@ -1,4 +1,4 @@
 function main() {
-  return "";
+  return "function";
 }
 main();
