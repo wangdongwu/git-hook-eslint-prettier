@@ -1,5 +1,5 @@
 function main() {
-  return "function";
+  return "function main";
 }
 main();
 function Modal() {
