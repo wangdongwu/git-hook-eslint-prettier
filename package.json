@@ -11,8 +11,8 @@
     "license": "ISC",
     "husky": {
         "hooks": {
-            "pre-commit": "pretty-quick --staged",
-            "pre-push": "standard && eslint ."
+            "pre-commit": "pretty-quick --staged && standard --fix",
+            "pre-push": "eslint ."
         }
     },
     "devDependencies": {
