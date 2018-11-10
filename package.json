@@ -11,7 +11,7 @@
     "license": "ISC",
     "husky": {
         "hooks": {
-            "pre-commit": "standard --fix && prettier-standard .",
+            "pre-commit": "prettier-standard .",
             "pre-push": "eslint ."
         }
     },
