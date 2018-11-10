@@ -12,7 +12,7 @@
     "husky": {
         "hooks": {
             "pre-commit": "standard --fix && pretty-quick --staged",
-            "pre-push": "eslint ."
+            "pre-push": "standard . && eslint ."
         }
     },
     "devDependencies": {
